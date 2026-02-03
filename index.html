@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Memo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quick Notes</h1>
+            <p>Simple, fast, persistent.</p>
+        </header>
+        
+        <div class="input-area">
+            <textarea id="memoInput" placeholder="Write a note..."></textarea>
+            <button id="addBtn">Add Note</button>
+        </div>
+
+        <ul id="memoList" class="memo-list">
+            <!-- Memos will appear here -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
